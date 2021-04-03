@@ -1,7 +1,7 @@
 # Jdk-use
 
 需求：
-使用SAX读取自定义配置的xml文件数据。
+1.使用SAX读取自定义配置的xml文件数据。
 
 SAX parser is working differently with a DOM parser, it neither load any XML document into memory nor creates an object representation of the XML document. Instead, the SAX parser use callback function (org.xml.sax.helpers.DefaultHandler) to informs clients of the XML document structure.
 参考：https://www.javaguides.net/2018/10/how-to-read-xml-file-in-java-sax-parser.html
@@ -20,3 +20,11 @@ endElement   末标签读取 </Module>
 好处是，读取标签并没有创造整个的对象，我们在寻找指定标签内容时候对内存特别友好
 
 SAX Parser is faster and uses less memory than DOM parser.
+
+2.手写JDK动态代理实现。
+JDK动态代理采用采用字节重组，重新生成对象来替代原始对象，以达到动态代理的目的。
+(1)获取被代理对象的引用，并且获得它的所有接口，反射获取。
+(2)JDK动态代理类重新生成一个新的类，同时新的类要实现被代理类实现的所有接口。
+(3)动态生成Java代码，新加业务逻辑方法由一定的逻辑代码调用。
+(4)编译新生成的Java代码.class文件。
+(5)重新加载到JVM中运行。
