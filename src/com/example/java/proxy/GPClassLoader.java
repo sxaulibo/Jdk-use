@@ -4,6 +4,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 
+/**
+ * 类加载器
+ */
 public class GPClassLoader extends ClassLoader {
 
     private File classPathFile;

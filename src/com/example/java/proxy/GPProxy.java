@@ -10,6 +10,9 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 手动实现动态代理
+ */
 public class GPProxy {
 
 
