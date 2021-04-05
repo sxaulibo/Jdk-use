@@ -1,8 +1,18 @@
 package com.example.java.decorator;
 
+/**
+ * decorator pattern 装饰者模式 也称 wrapper pattern 包装器模式
+ *
+ * (1)抽象组件(Component):可以是一个抽象类或者接口，充当被修饰类的原始对象，规定被修饰对象的行为
+ * (2)具体组件(ConcreteComponent):实现或者继承Component的一个具体对象，即被装饰对象。
+ * (3)抽象装饰器(Decorator):通用的装饰ConcreteComponent的装饰器，内部必然有一个属性指向Component。
+ *  其实现一般是一个抽象类，主要是为了让其子类按照其构造形式传入一个Component,这是强制的通用行为。
+ *  如果系统中的装饰逻辑单一，则并不需要实现许多装饰器，可以直接省略该类，而直接显示一个具体装饰器即可。
+ * (4)具体装饰器(ConcreteDecorator):Decorator的具体实现类，理论上每个ConcreteDecorator都扩展了Component对象的一种功能。
+ */
 public class Client {
     public static void main(String[] args) {
-        //concrete 具体的、实际的  Decorator 装潢师
+        //concrete 具体的、实际的  Decorator 装潢师 operation 行为行动
         ConcreteComponent c1 = new ConcreteComponent();
         Decorator decoratorA = new ConcreteDecoratorA(c1);
         decoratorA.operation();
