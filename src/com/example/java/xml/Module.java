@@ -1,4 +1,4 @@
-package com.example.java;
+package com.example.java.xml;
 
 import java.util.ArrayList;
 import java.util.List;
