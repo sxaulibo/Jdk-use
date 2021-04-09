@@ -1,4 +1,4 @@
-package com.example.java;
+package com.example.java.xml;
 
 import org.xml.sax.SAXException;
 
@@ -15,7 +15,7 @@ public class ReadXMLSAXParser {
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             ModuleHandler handler = new ModuleHandler(ModuleHandler.ModuleTypeEnum.IMPORTANT.value());
-            saxParser.parse(new File("src/com/example/java/moudles.xml"), handler);
+            saxParser.parse(new File("src/com/example/java/xml/moudles.xml"), handler);
             // Get Users list
             List<Module> modules = handler.getEmpList();
             // print user information

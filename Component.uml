@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.java.decorator.Client.Component</OriginalElement>
+  <nodes>
+    <node x="0.0" y="249.0">com.example.java.decorator.Client.ConcreteDecoratorB</node>
+    <node x="458.875" y="124.5">com.example.java.decorator.Client.ConcreteComponent</node>
+    <node x="284.0" y="249.0">com.example.java.decorator.Client.ConcreteDecoratorA</node>
+    <node x="258.30952380952385" y="0.0">com.example.java.decorator.Client.Component</node>
+    <node x="333.8095238095238" y="429.0">com.example.java.decorator.Client</node>
+    <node x="188.36904761904765" y="113.0">com.example.java.decorator.Client.Decorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.java.decorator.Client.Decorator" target="com.example.java.decorator.Client.Component">
+      <point x="49.25" y="-43.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.decorator.Client.ConcreteDecoratorB" target="com.example.java.decorator.Client.Decorator">
+      <point x="0.0" y="-65.0" />
+      <point x="132.0" y="224.0" />
+      <point x="237.61904761904765" y="224.0" />
+      <point x="-49.25" y="43.0" />
+    </edge>
+    <edge source="com.example.java.decorator.Client.ConcreteComponent" target="com.example.java.decorator.Client.Component">
+      <point x="0.0" y="-31.5" />
+      <point x="584.875" y="88.0" />
+      <point x="388.30952380952385" y="88.0" />
+      <point x="52.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.decorator.Client.ConcreteDecoratorA" target="com.example.java.decorator.Client.Decorator">
+      <point x="0.0" y="-65.0" />
+      <point x="416.0" y="224.0" />
+      <point x="336.11904761904765" y="224.0" />
+      <point x="49.25" y="43.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="355.5" y="246.0" />
+  <SelectedNodes>
+    <node>com.example.java.decorator.Client.Component</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,4 +1,4 @@
-package com.example.java;
+package com.example.java.xml;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

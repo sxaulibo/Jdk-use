@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.java.decorator.example.BasePancake</OriginalElement>
+  <nodes>
+    <node x="265.2142857142858" y="472.0">com.example.java.decorator.example.PancakeTest</node>
+    <node x="0.0" y="315.0">com.example.java.decorator.example.SausageDecorator</node>
+    <node x="232.00000000000006" y="0.0">com.example.java.decorator.example.Pancake</node>
+    <node x="404.25" y="157.5">com.example.java.decorator.example.BasePancake</node>
+    <node x="260.0" y="315.0">com.example.java.decorator.example.EggDecorator</node>
+    <node x="124.71428571428572" y="135.0">com.example.java.decorator.example.PancakeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.java.decorator.example.PancakeTest" target="com.example.java.decorator.example.EggDecorator">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="53.5" />
+    </edge>
+    <edge source="com.example.java.decorator.example.BasePancake" target="com.example.java.decorator.example.Pancake">
+      <point x="0.0" y="-42.5" />
+      <point x="494.25" y="110.0" />
+      <point x="354.50000000000006" y="110.0" />
+      <point x="49.0" y="42.5" />
+    </edge>
+    <edge source="com.example.java.decorator.example.PancakeDecorator" target="com.example.java.decorator.example.Pancake">
+      <point x="-59.99999999999997" y="-65.0" />
+      <point x="184.71428571428575" y="110.0" />
+      <point x="256.50000000000006" y="110.0" />
+      <point x="-49.0" y="42.5" />
+    </edge>
+    <edge source="com.example.java.decorator.example.SausageDecorator" target="com.example.java.decorator.example.PancakeDecorator">
+      <point x="0.0" y="-53.5" />
+      <point x="120.0" y="290.0" />
+      <point x="184.71428571428572" y="290.0" />
+      <point x="-60.0" y="65.0" />
+    </edge>
+    <edge source="com.example.java.decorator.example.PancakeTest" target="com.example.java.decorator.example.BasePancake">
+      <point x="60.0" y="-31.5" />
+      <point x="415.2142857142858" y="447.0" />
+      <point x="494.25" y="447.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.example.java.decorator.example.EggDecorator" target="com.example.java.decorator.example.PancakeDecorator">
+      <point x="0.0" y="-53.5" />
+      <point x="356.0" y="290.0" />
+      <point x="304.7142857142858" y="290.0" />
+      <point x="60.00000000000003" y="65.0" />
+    </edge>
+    <edge source="com.example.java.decorator.example.PancakeTest" target="com.example.java.decorator.example.SausageDecorator">
+      <point x="-60.0" y="-31.5" />
+      <point x="295.2142857142858" y="447.0" />
+      <point x="120.0" y="447.0" />
+      <point x="0.0" y="53.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="292.5" y="267.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

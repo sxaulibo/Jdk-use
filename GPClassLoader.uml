@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.java.proxy.GPClassLoader</OriginalElement>
+  <nodes>
+    <node x="51.609375" y="0.0">com.example.java.proxy.iProxy.IPerson</node>
+    <node x="645.609375" y="0.0">com.example.java.proxy.GPClassLoader</node>
+    <node x="329.609375" y="0.0">com.example.java.proxy.GPInvocationHandler</node>
+    <node x="466.6875" y="125.0">com.example.java.proxy.iProxy.GPMatchMaker</node>
+    <node x="330.0" y="-119.0">com.example.java.proxy.GPProxy</node>
+    <node x="36.5" y="136.0">com.example.java.proxy.iProxy.WoMan</node>
+    <node x="32.692708333333314" y="272.0">Main</node>
+    <node x="199.5" y="113.0">com.example.java.proxy.$Proxy0</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="com.example.java.proxy.iProxy.WoMan">
+      <point x="0.0" y="-31.5" />
+      <point x="114.69270833333331" y="247.0" />
+      <point x="108.0" y="247.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.proxy.iProxy.GPMatchMaker" target="com.example.java.proxy.GPInvocationHandler">
+      <point x="0.0" y="-42.5" />
+      <point x="614.6875" y="93.0" />
+      <point x="551.609375" y="93.0" />
+      <point x="74.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.proxy.$Proxy0" target="com.example.java.proxy.GPInvocationHandler">
+      <point x="61.25" y="-54.5" />
+      <point x="383.25" y="93.0" />
+      <point x="403.609375" y="93.0" />
+      <point x="-74.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.proxy.iProxy.GPMatchMaker" target="com.example.java.proxy.GPClassLoader">
+      <point x="98.66666666666669" y="-42.5" />
+      <point x="713.3541666666667" y="93.0" />
+      <point x="747.609375" y="93.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.proxy.$Proxy0" target="com.example.java.proxy.iProxy.IPerson">
+      <point x="-61.25" y="-54.5" />
+      <point x="260.75" y="93.0" />
+      <point x="140.984375" y="93.0" />
+      <point x="17.875" y="31.5" />
+    </edge>
+    <edge source="Main" target="com.example.java.proxy.iProxy.GPMatchMaker">
+      <point x="54.66666666666663" y="-31.5" />
+      <point x="169.35937499999994" y="247.0" />
+      <point x="614.6875" y="247.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="Main" target="com.example.java.proxy.iProxy.IPerson">
+      <point x="-54.66666666666663" y="-31.5" />
+      <point x="60.026041666666686" y="247.0" />
+      <point x="26.0" y="247.0" />
+      <point x="26.0" y="93.0" />
+      <point x="69.484375" y="93.0" />
+      <point x="-53.625" y="31.5" />
+    </edge>
+    <edge source="com.example.java.proxy.iProxy.WoMan" target="com.example.java.proxy.iProxy.IPerson">
+      <point x="0.0" y="-31.5" />
+      <point x="108.0" y="93.0" />
+      <point x="105.234375" y="93.0" />
+      <point x="-17.875" y="31.5" />
+    </edge>
+    <edge source="com.example.java.proxy.iProxy.GPMatchMaker" target="com.example.java.proxy.iProxy.IPerson">
+      <point x="-98.66666666666669" y="-42.5" />
+      <point x="516.0208333333333" y="83.0" />
+      <point x="176.734375" y="83.0" />
+      <point x="53.625" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="426.0" y="108.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+

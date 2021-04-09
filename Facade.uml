@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.java.facade.Client.Facade</OriginalElement>
+  <nodes>
+    <node x="212.0" y="123.0">com.example.java.facade.Client.Facade</node>
+    <node x="376.0" y="0.0">com.example.java.facade.Client.SubSystemC</node>
+    <node x="188.0" y="0.0">com.example.java.facade.Client.SubSystemB</node>
+    <node x="0.0" y="0.0">com.example.java.facade.Client.SubSystemA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.java.facade.Client.Facade" target="com.example.java.facade.Client.SubSystemB">
+      <point x="10.0" y="-53.5" />
+      <point x="282.0" y="83.0" />
+      <point x="314.0" y="83.0" />
+      <point x="42.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.facade.Client.Facade" target="com.example.java.facade.Client.SubSystemA">
+      <point x="-30.0" y="-53.5" />
+      <point x="242.0" y="93.0" />
+      <point x="126.0" y="93.0" />
+      <point x="42.0" y="31.5" />
+    </edge>
+    <edge source="com.example.java.facade.Client.Facade" target="com.example.java.facade.Client.SubSystemC">
+      <point x="50.0" y="-53.5" />
+      <point x="322.0" y="103.0" />
+      <point x="502.0" y="103.0" />
+      <point x="42.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="272.0" y="115.0" />
+  <SelectedNodes>
+    <node>com.example.java.facade.Client.Facade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
