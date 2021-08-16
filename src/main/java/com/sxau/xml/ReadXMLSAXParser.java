@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class ReadXMLSAXParser {
+    public static String name = "";
     public static void main(String[] args) {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         try {
@@ -25,5 +26,9 @@ public class ReadXMLSAXParser {
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static class Out{
+        public String age;
     }
 }
